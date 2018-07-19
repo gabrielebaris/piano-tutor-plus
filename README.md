@@ -58,7 +58,7 @@ Notice that the program must be up and running to connect to the MIDI port: once
 ### Headless Raspberry Pi
 In case you are using a headless Raspberry Pi, you need to use `aseqnet` to allow your PC/laptop running MuseScore to correctly communicate with PianoTutor+. This configuration is depicted in the picture below
 
-![Headless Raspberry Pi functional diagram](images/Headless_RaspberryPi_PianoTutor+.pdf)
+![Headless Raspberry Pi functional diagram](images/Headless_RaspberryPi_PianoTutor+.svg)
 
 With this approach, we will call the Raspberry Pi a *headless* device since it would run without a monitor or peripherals such as mouse or keyboard, so you would require an SSH connection.
 
@@ -91,6 +91,6 @@ to connect to the ALSA sequencer server. Then, from inside MuseScore settings, s
 
 Having a display connected to the Raspberry Pi, you could run MuseScore directly on it (however, I had some troubles either in compiling/running MuseScore on a Raspberry Pi 2). This configuration is depicted in the functional diagram below
 
-![Raspberry Pi with display functional diagram](images/Standalone_RaspberryPi_PianoTutor+.pdf)
+![Raspberry Pi with display functional diagram](images/Standalone_RaspberryPi_PianoTutor+.svg)
 
 Anyway, with this configuration, you simply have to run MuseScore and, from its settings, set the keyboard as MIDI input and PianoTutor+ as MIDI output.

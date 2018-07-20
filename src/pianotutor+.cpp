@@ -31,6 +31,7 @@
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 #include "ArgParser.h"
 #include "Config.h"
@@ -167,6 +168,8 @@ int main(int argc, char* argv[]) {
 
                 strip.render();
             }
+
+            usleep(10000);
         }
 
     } catch(OpenFileException& e) {
